@@ -1,0 +1,3 @@
+"C:\Program Files\JetBrains\CLion 2021.2.1\bin\cmake\win\bin\cmake.exe" -E rm -f CMakeFiles\MATLABCDLL.dir/objects.a
+C:\mingw\mingw64\bin\ar.exe cr CMakeFiles\MATLABCDLL.dir/objects.a @CMakeFiles\MATLABCDLL.dir\objects1.rsp
+C:\mingw\mingw64\bin\gcc.exe -g -shared -o libMATLABCDLL.dll -Wl,--out-implib,libMATLABCDLL.dll.a -Wl,--major-image-version,0,--minor-image-version,0 -Wl,--whole-archive CMakeFiles\MATLABCDLL.dir/objects.a -Wl,--no-whole-archive @CMakeFiles\MATLABCDLL.dir\linklibs.rsp

@@ -1,0 +1,16 @@
+#IncludeRegexLine: ^[ 	]*[#%][ 	]*(include|import)[ 	]*[<"]([^">]+)([">])
+
+#IncludeRegexScan: ^.*$
+
+#IncludeRegexComplain: ^$
+
+#IncludeRegexTransform: 
+
+D:/C/MATLABCPLUSDLL/library.cpp
+library.h
+D:/C/MATLABCPLUSDLL/library.h
+iostream
+-
+
+D:/C/MATLABCPLUSDLL/library.h
+
